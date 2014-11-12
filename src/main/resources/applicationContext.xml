@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+<bean id="animal2" class="test.Mouse">
+    <property name="name" value="jerry" />
+</bean>
+<bean id="animal" class="test.Cat">
+    <property name="name" value="tom" />
+    <property name="mouse" ref="animal2" />
+</bean>
+</beans>
