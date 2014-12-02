@@ -2,6 +2,7 @@ package test;
 
 import java.lang.reflect.Proxy;
 
+import com.ddt.summer.aop.AopCglib;
 import com.ddt.summer.aop.AopInvocationHandler;
 
 import simple.XmlReader;
@@ -23,7 +24,7 @@ public class Example {
 	}
 	
 	public static void main(String[] args){
-		testAOP();
+		AopCglib.byteCodeGe();
     }
 
 }
